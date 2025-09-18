@@ -1,13 +1,42 @@
-# AI-for-Energy-and-EdgeAI
+# ⚡ AI-for-Energy
 
-A comprehensive repository of **Artificial Intelligence, IoT, and Edge AI exercises and applied projects**, focused on energy systems, smart grids, and industrial applications. This repository serves as both a **learning lab** for students and a **professional portfolio** for recruiters, collaborators, and researchers.
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
----
+A collection of **educational notebooks and scripts** that demonstrate the application of **Artificial Intelligence (AI) and Machine Learning (ML)** techniques in the **energy and industrial sectors**.  
+
+This repository is part of my research, teaching, and writing work, and serves as a reference for engineers, students, and professionals interested in exploring how AI can optimise energy systems and drive the transition to smarter, more sustainable industries. 
+
+## 📌 Objectives
+
+- Provide **clear, practical examples** of AI/ML algorithms applied to energy and industry.  
+- Build a **didactic resource** for readers of my book, blog, and LinkedIn posts.  
+- Show recruiters and collaborators my expertise in **AI + Energy applications**.
 
 ## 📂 Repository Structure
 
-### 1. Algorithms & Exercises
-Weekly learning exercises organized by algorithmic family:
+Weekly learning exercises organised by algorithmic family:
+
+```bash
+AI-for-Energy/
+├── Regression/
+│   ├── LinearRegression_Energy.ipynb
+│   ├── PolynomialRegression_Energy.ipynb
+├── Classification/
+│   ├── SVM_FaultDetection.ipynb
+├── Clustering/
+│   ├── KMeans_LoadProfiles.ipynb
+├── ReinforcementLearning/
+│   ├── SmartGrid_Optimization.ipynb
+└── datasets/        # Small sample datasets or links to larger ones
+```
+<p>Regression → Predicting energy demand, consumption, or production.</p>
+<p>Classification → Detecting faults and anomalies in grids and systems.</p>
+<p>Clustering → Identifying consumption/load profiles.</p>
+<p>Reinforcement Learning → Optimising smart grid operations.</p>
+
+<!-- ### 1. Algorithms & Exercises
 
 algorithms/
 ├── machine_learning/
@@ -21,85 +50,49 @@ algorithms/
 │ ├── unsupervised/
 │ └── ensemble_methods/
 ├── deep_learning/
-└── edge_ai/
-
-markdown
-Copy code
+└── edge_ai/ -->
 
 - Each folder includes:
-  - `.py` scripts
+  - `.py`/`.ipynb`/`.m`/  scripts
   - datasets (CSV or similar)
   - `README.md` explaining the algorithm and step-by-step instructions
-
-### 2. Applied Projects (Portfolio)
-Polished, real-world projects that demonstrate practical applications:
-
-projects/
-├── predictive_maintenance_substations/
-├── smart_grid_stability/
-├── iot_energy_monitoring/
-└── ...
-
-markdown
-Copy code
-
-- Each project includes:
-  - Source code (`src/`)
-  - Datasets (`data/`)
-  - Results/figures (`results/`)
-  - `README.md` detailing problem, methodology, results, and applications
-  - `requirements.txt` for dependencies
-
----
 
 ## ⚡ Getting Started
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/racielago/AI-and-EdgeAI-for-Energy.git
-cd AI-and-EdgeAI-for-Energy
-Explore exercises or projects:
+git clone https://github.com/racielago/AI-for-Energy.git
+cd AI-for-Energy
+```
 
-bash
-Copy code
+Explore exercises or projects:
+```bash
 cd algorithms/machine_learning/supervised/regression/linear_regression
 python linear_regression.py
-For applied projects:
-
-bash
-Copy code
-cd projects/predictive_maintenance_substations/src
-python main.py
+```
 Make sure to install the required Python packages (requirements.txt) before running projects.
 
 🎯 Learning Objectives
-Understand AI and Edge AI concepts applied to energy and industrial systems.
+- Understand AI and Edge AI concepts applied to energy and industrial systems.
 
-Practice algorithms step-by-step while building real-world applications.
+- Practice algorithms step-by-step while building real-world applications.
 
-Bridge the gap between research, teaching, and professional work.
+- Bridge the gap between research, teaching, and professional work.
 
 🔗 Related Resources
-Book on AI Applied to Energy Systems
+- Book on AI Applied to Energy Systems
 
-Blog & Tutorials
+- Blog & Tutorials
 
-LinkedIn Profile
-
-📜 License
-Exercises (/algorithms/): MIT License
-
-Applied Projects (/projects/): Apache 2.0 License
-
-See each folder for individual LICENSE files.
+- LinkedIn Profile
 
 🙌 Contributing
 Contributions are welcome!
 
-Students can submit exercises or optimizations
+- Students can submit exercises or optimisations
 
-Researchers and professionals can add applied projects or improvements
+- Researchers and professionals can add applied projects or improvements
 
 Please check CONTRIBUTING.md for guidelines.
 
